@@ -1,0 +1,43 @@
+Body{
+    font-family: system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+
+.QuestionWrapper h1{
+    font-size: 30px;
+    font-weight: 500;
+    color: darkcyan;
+}
+
+.OptionWrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.OptionWrapper button{
+    margin-bottom: 10px;
+    background-color: rgb(35, 35, 35);
+    color: white;
+    padding: 10px 0px;
+    cursor: pointer;
+    transition: 0.4s linear;
+}
+
+.OptionWrapper button:hover{
+    margin-bottom: 10px;
+    margin-left: 10px;
+    transform: skew(20deg);
+    background-color: rgb(54, 54, 54);
+    border: 4px solid rgb(54, 54, 54);
+
+    transform: skew(10deg);
+    border-radius: 5px;
+    margin-left: -20px;
+    padding: 5px 10px;
+    font-size: 0.8em;
+}
+
+
+.Result{
+    color: black;
+}
